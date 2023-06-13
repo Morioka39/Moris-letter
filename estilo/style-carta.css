@@ -5,7 +5,7 @@
         display: flex;
         flex-wrap: wrap;
         max-width: 1000vw;
-        background-image: url(imagens/7136d72a-a5fc-4162-818b-9ac5bb1939b5.jpg);
+        background-image: linear-gradient(#FFB6C1, 60%, #bb223c);
         background-position: center; 
         padding: 0px;
         box-sizing: border-box;
