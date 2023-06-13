@@ -1,0 +1,266 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Tajawal:wght@400&display=swap');
+
+    body{
+    margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1000vw;
+        background-image: url(/imagens/5619766-minimalista-estilo-padrao-sem-costura-com-folhas-de-contorno-verde-ramos-formas-fundo-luz-vetor.jpg);
+        background-position: center; 
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Tajawal', sans-serif;    
+    }
+
+
+    .bloco-total-do-texto{
+    max-height: 288em;
+    background-color: #fef6cd;
+    border-radius: 10px;
+    width: 500px;
+    padding: 10px;
+    flex-grow: 0;
+        flex-basis: 10px;
+    margin: 20px 0px 0px 20px;
+    }
+
+    p{
+        margin: 0;
+    }
+
+    article{
+        margin: 10px;
+    }
+
+    .scroll{
+        overflow-y: scroll;
+        height: 485px; 
+        width: 470px;
+        padding: 15px
+
+    }
+
+    .scroll p{
+        font-size: 1em;
+    }
+
+    ::-webkit-scrollbar{
+        width: 10px
+
+    }
+
+    ::-webkit-scrollbar-thumb{
+        background: linear-gradient(transparent, 25%,  pink, 70%, #74f074);
+        border-radius: 3px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover{
+        background: linear-gradient(transparent, #4cb14c);
+    }
+
+    button{
+        width: 100px; 
+        
+    }
+
+    :root{
+        --colorWhite: #f0eaea;
+        --colorPurple: #9809ce;
+        --colorBlack: #0e0d0d;
+    }
+
+
+
+    .container-darling span{
+    
+    }
+
+    @keyframes brilho{
+        0%{
+            color: #f0ebeb;
+            text-shadow: 0 0 12px var(--colorPurple), 
+            0 0 50px var(--colorPurple), 
+            0 0 100px var(--colorPurple);
+        }
+        10%, 90%{
+        color: var(--colorBlack);
+        text-shadow: none;
+        }
+    }
+
+    .container-darling{
+        background-color: #f0ebeb;
+        width: 340px;
+        text-align: center;
+        letter-spacing: 2px;
+        
+    }
+
+    .container-darling span{
+        animation-name: brilho;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;    
+        font-weight: bold;
+        
+    }
+
+    .container-darling span:nth-of-type(2) {
+        animation-delay: 0.25s;
+    }
+
+    .container-darling span:nth-of-type(3) {
+        animation-delay: 0.50s;
+    }
+
+    .container-darling span:nth-of-type(4) {
+        animation-delay: 0.75s;
+    }
+
+    .container-darling span:nth-of-type(5) {
+        animation-delay: 1s;
+    }
+
+    .container-darling span:nth-of-type(6) {
+        animation-delay: 1.25s;
+    }
+
+    .container-darling span:nth-of-type(7) {
+        animation-delay: 1.50s;
+    }
+
+    .container-darling span:nth-of-type(8) {
+        animation-delay: 1.75s;
+    }
+
+    .container-darling span:nth-of-type(9) {
+        animation-delay: 2s;
+    }
+
+    .container-darling span:nth-of-type(10) {
+        animation-delay: 2.25s;
+    }
+
+    .container-darling span:nth-of-type(11) {
+        animation-delay: 2.75s;
+    }
+
+    .container-darling span:nth-of-type(12) {
+        animation-delay: 3s;
+    }
+
+    .container-darling span:nth-of-type(13) {
+        animation-delay: 3.25s;
+    }
+
+    .container-darling span:nth-of-type(14) {
+        animation-delay: 3.75s;
+    }
+
+    .container-darling span:nth-of-type(15) {
+        animation-delay: 4s;
+    }
+
+    .container-darling span:nth-of-type(16) {
+        animation-delay: 4.25s;
+    }
+
+    .container-darling span:nth-of-type(17) {
+        animation-delay: 4.50s;
+    }
+
+    #container-date{
+        display: flex;
+        flex-direction: column;
+        width: 550px;
+        height: 550px;
+        margin-top: 30px;
+        margin-left: 100px;
+        
+    }
+    .letter-date{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        height: 80px;
+        letter-spacing: 4px; 
+        border-radius: 10px 20px 50px 10px;
+        background: radial-gradient(circle, rgba(181,240,137,1) 19%, rgba(109,163,105,1) 100%);
+    }
+
+
+    img{
+        margin: 10px auto 0px auto;
+        width: 350px;
+        height: 480px;  
+
+    }
+
+    audio::-webkit-media-controls-panel{
+        background: linear-gradient(transparent, #eb4a0a);
+    
+    }
+
+    audio::-webkit-media-controls-mute-button {
+        background-color: #d8856c;
+        border-radius: 50%;
+    }
+    
+    .galeria-de-fotos{
+        margin: 100px 0px 0px 30px;
+        background-color: #0e0d0df5;
+        width: 80%;
+        border-left: 5px dotted #fff;
+        border-right: 5px dotted #fff;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+
+    .galeria-de-fotos img{
+        width: 250px;
+        height: 270px;
+        margin: 0;
+        border-radius: 10px;
+        padding: 2px;  
+    }
+      
+
+
+
+@media screen and (max-width: 500px){
+
+    body{
+   overflow-x: hidden;
+    }
+
+    .bloco-total-do-texto{
+      width: 360px;
+      margin-left: 10px;
+    }
+  
+    .scroll{
+      display: inline;
+      word-wrap: break-word;
+      
+    }
+
+    #container-date{
+        margin-left: 5px;
+        margin-top: 40px;
+        width: 380px;
+
+    }
+
+    #container-date img{
+        margin-top: 20px;
+    }
+
+    
+   
+   
+}
