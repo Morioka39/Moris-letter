@@ -38,24 +38,33 @@ img{
 }
   
 
-   button{
+   .botao{
     background-color: #fef6cd;
     margin-top: 80px;
     height: 50px;
     width: 200px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
     font-weight: 600;
     font-size: 99%;
     border-radius: 15px;
    }
 
-  button:hover{
+  a:hover{
     background-color: rgb(245, 122, 122);
     color: #fff;
   }
     
-
+a{
+width: 100%;
+height: 99%;
+border-radius: 15px;
+display: flex;
+justify-content: center;
+aligh-items: center;
+text-decoration: none;
+color: #000;
+box-shadow: 5px 5px 5px black; 
+}
 
 
 
